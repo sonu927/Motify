@@ -82,6 +82,7 @@ html{
     border-bottom-color: #38A700;
     margin-right: 1050px; 
 }
-@keyframes move{
+/*Below code is just an animation to move a picture*/
+/*@keyframes move{
     50%{transform: translate(0,-30px);}
-}
+}*/
