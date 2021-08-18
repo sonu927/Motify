@@ -1,0 +1,78 @@
+html{
+    background-image: url("firstBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logo{
+    float: left;
+    margin-top: -5px;
+    margin-left: 500px;
+}
+#top{
+    color: #ff8d03;
+    font-size: 80px;
+    text-shadow: 2px 0px 5px whitesmoke;
+    text-decoration: underline black;
+    text-decoration-thickness: 3px;
+    padding: 0px;
+    margin-top: -20px;
+    font-weight: bold;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #444444;
+}
+li a{
+    float: left;
+    display: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 60px;
+}
+li a:hover{
+    background-color: #222222;
+    text-shadow: 0px 0px 10px yellow;
+   
+   /* animation: myglow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;*/
+}
+#come{
+    color: #b1ff08;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    text-shadow: 3px 0px 5px #ff6b08;
+}
+#para{
+    color: white;
+}
+#p1{
+    margin-left: 200px;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px yellow;
+}
+#last{
+    margin-left: 200px;
+}
+#lost{
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444444;
+    text-align: center;
+}
+@keyframes myglow{
+    100%{text-shadow: 0px 0px 10px yellow;}
+}

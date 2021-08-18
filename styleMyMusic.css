@@ -1,0 +1,87 @@
+html{
+    background-image: url("secondBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*#sign{
+    float: left;
+    margin-left: 400px;
+    margin-top: -10px;
+}*/
+#head{
+    font-size: 50px;
+    text-shadow: 0px 0px 3px red,0px -5px 5px green;
+    text-decoration: underline;
+    color: black;
+    margin-left: 400px;
+}
+#p1{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+#p2{
+    color:honeydew;
+}
+#list{
+    color: white;
+}
+#Lauv{
+    font-size: 25px;
+}
+#lo a{
+    text-decoration: none;
+    color: rgb(245, 138, 188);
+}
+#one{
+    border: 1px solid;
+    border-color: white;
+    border-width: thick;
+    border-style: inset;
+    border-top-color: #CD4631;
+    border-left-color: #CD4631;
+    border-right-color: #38A700;
+    border-bottom-color: #38A700;
+    margin-right: 1050px;
+}
+#jeremy{
+    font-size: 25px;
+}
+#je a{
+    text-decoration: none;
+    color: rgb(245, 138, 188);
+}
+#two{
+    border: 1px solid;
+    border-color: white;
+    border-width: thick;
+    border-style: inset;
+    border-top-color: #CD4631;
+    border-left-color: #CD4631;
+    border-right-color: #38A700;
+    border-bottom-color: #38A700;
+    margin-right: 1050px;
+}
+#Post{
+    font-size: 25px;
+}
+#pm a{
+    text-decoration: none;
+    color: rgb(245, 138, 188);
+}
+#three{
+    border: 1px solid;
+    border-color: white;
+    border-width: thick;
+    border-style: inset;
+    border-top-color: #CD4631;
+    border-left-color: #CD4631;
+    border-right-color: #38A700;
+    border-bottom-color: #38A700;
+    margin-right: 1050px; 
+}
+@keyframes move{
+    50%{transform: translate(0,-30px);}
+}
